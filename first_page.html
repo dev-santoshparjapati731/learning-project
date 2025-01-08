@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Let's Start </title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/aos.css">
+    <link rel="stylesheet" href="../css/loader.css">
+
+</head>
+
+<body class="bg-color">
+
+    <!-- Circle Loader -->
+    <!-- <div class="circle-loader">
+        <img class="img-fluid p-3" src="../Images/main.png" alt="Image">
+    </div> -->
+
+    <!-- Main Content that will appear after loading -->
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="container">
+                        <nav class="navbar">
+                            <a class="navbar-brand" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">Infinite Reads</a>
+
+                            <!-- start Login form -->
+                            <div class="login d-flex">
+                                <a href="#" style="text-decoration:none;color:black;" data-bs-toggle="modal" data-bs-target="#loginModal" data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">login</a>
+                            </div>
+
+                            <!-- Modal for Login Form -->
+                            <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <label for="username" class="form-label">Username</label>
+                                                    <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                                                </div>
+                                                <div class="mb-3">
+                                                    <label for="password" class="form-label">Password</label>
+                                                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                                                </div>
+                                                <div class="d-flex justify-content-between">
+                                                    <button type="submit" class="btn btn-primary">Login</button>
+                                                    <a href="#" class="btn btn-link">Forgot Password?</a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- end Login form -->
+
+
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Start Main Section -->
+        <div class="container py-5">
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-md-6 d-flex align-items-center justify-content-center order-md-1 order-2">
+                    <div id="small-device" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+                        <h2 style="font-family :  Bungee , serif" ; class=" text-center ">Explore the World of Books</h2>
+                        <p style="font-family:  Baskervville SC , serif" ; class="text-center ">Books are portals to different worlds. They can take you on an adventure, introduce you to fascinating characters, and teach you life-changing lessons. Open a book, and you open your mind.</p>
+                        <div class="text-center ">
+                            <button class="btn btn-warning " style="font-family:  Baskervville SC , serif;">Discover More <i class="fa-solid fa-arrow-right "></i> 
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column (Book Image) -->
+                <div class="col-md-6 d-flex align-items-center justify-content-center order-md-2 order-1 " data-aos="fade-left " data-aos-delay="100 " data-aos-duration="1000 ">
+                    <img src="../Images/infinite.png" class="book-image img-fluid " alt="3D Book Image ">
+                </div>
+            </div>
+        </div>
+        <!-- End Main Section -->
+
+        <!-- Start Book Categ-->
+        <!-- Book Category Section -->
+        <div class="container my-5">
+            <h2 data-aos="fade-right" data-aos-delay="400" data-aos-duration="500" style="font-family: Bungee , serif; " class="text-center mb-4 ">Book Categories</h2>
+            <div class="row g-4">
+
+                <!-- Another Book Card -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card book-card shadow-sm" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+                        <img src="https://images.unsplash.com/photo-1531208483756-19591c7c4ab8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzM4fHxjb2RpbmclMjBib29rc3xlbnwwfHwwfHx8MA%3D%3D " class="card-img-top img-fluid
+                " alt="Book Image ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">HTML (HyperText Markup Language)</h5>
+                            <p class="card-text ">HTML ka main kaam web content ko logically organize karna aur browser ko samajhane mein madad dena hai ki page ko kaise dikhana hai.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Single Book Card -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card book-card shadow-sm " data-aos="fade-left" data-aos-delay="100" data-aos-duration="1000">
+                        <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGNvZGluZyUyMGJvb2tzfGVufDB8fDB8fHww " class="card-img-top img-fluid
+                " alt="Book Image ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">css (Cascading Style Sheets) </h5>
+                            <p class="card-text ">ek style sheet language hai jo HTML elements ke presentation ko style karne ke liye use hoti hai. Iska main purpose webpages ko visually appealing banana aur layout control karna hai. CSS ke zariye aap text, images, colors,
+                                spacing, alignment, aur layout ko modify kar sakte hain.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Another Book Card -->
+                <div class="col-md-4 col-sm-6">
+                    <div class="card book-card shadow-sm " data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+                        <img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fGphdmFzY3JpcHR8ZW58MHx8MHx8fDA%3D " class="card-img-top img-fluid " alt="Book
+                Image ">
+                        <div class="card-body ">
+                            <h5 class="card-title ">JavaScript (JS) </h5>
+                            <p class="card-text ">JavaScript ka main purpose web pages mein dynamic functionality add karna hai, jaise interactive forms, animations, real-time data updates, aur user interactions.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more books here if needed -->
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="../js/bootstrap.bundle.min.js "></script>
+    <script src="../js/aos.js "></script>
+    <script src="../js/aos-int.js "></script>
+    <script src="../js/loder.js "></script>
+</body>
+
+</html>
